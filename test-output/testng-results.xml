@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-10T10:13:56 IST" name="Default suite" finished-at="2024-01-10T10:13:56 IST" duration-ms="168">
+    <groups>
+    </groups>
+    <test started-at="2024-01-10T10:13:56 IST" name="Default test" finished-at="2024-01-10T10:13:56 IST" duration-ms="168">
+      <class name="practice.TestNGParctice">
+        <test-method signature="deleteCustomer()[pri:0, instance:practice.TestNGParctice@4afcd809]" started-at="2024-01-10T10:13:56 IST" name="deleteCustomer" finished-at="2024-01-10T10:13:56 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+        <test-method signature="updateCustomer()[pri:0, instance:practice.TestNGParctice@4afcd809]" started-at="2024-01-10T10:13:56 IST" name="updateCustomer" finished-at="2024-01-10T10:13:56 IST" depends-on-methods="practice.TestNGParctice.deleteCustomer" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateCustomer -->
+        <test-method signature="createCustomer()[pri:1, instance:practice.TestNGParctice@4afcd809]" started-at="2024-01-10T10:13:56 IST" name="createCustomer" finished-at="2024-01-10T10:13:56 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method signature="createCustomer()[pri:1, instance:practice.TestNGParctice@4afcd809]" started-at="2024-01-10T10:13:56 IST" name="createCustomer" finished-at="2024-01-10T10:13:56 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+      </class> <!-- practice.TestNGParctice -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

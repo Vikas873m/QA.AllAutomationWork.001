@@ -1,0 +1,24 @@
+package objectRepository;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class ContactPageInfo {
+
+	@FindBy(xpath = "//span[@class='dvHeaderText']")
+	private WebElement ContactHeaderText;
+	
+	public ContactPageInfo (WebDriver driver) { // test script
+		PageFactory.initElements(driver, this);
+	}
+
+	public WebElement getContactHeaderText() {
+		return ContactHeaderText;
+	}
+	//business library
+	public String getHeaderText() {
+		return ContactHeaderText.getText();
+	}
+}
